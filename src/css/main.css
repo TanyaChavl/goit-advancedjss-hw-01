@@ -1,0 +1,40 @@
+.container {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    color: #2E2F42;
+    line-height: 1.5;
+    letter-spacing: 0.04;
+    margin: 0 auto;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    padding: 0;
+    justify-content: center;
+}
+
+.nav-list-item {
+    display: inline;
+}
+
+.nav-list-link {
+    display: inline-block;
+    padding: 8px 16px;
+    text-decoration: none;
+    background-color: #4E75FF;
+    color: white;
+    font-weight: bold;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.nav-list-link:hover,
+.nav-list-linkl:focus {
+    background-color: #6C8CFF;
+    outline: none;
+}
